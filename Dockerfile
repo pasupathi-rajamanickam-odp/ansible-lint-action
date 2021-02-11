@@ -14,6 +14,8 @@ RUN set -ex && apt-get update && apt-get -q install -y -V git && rm -rf /var/lib
 
 RUN pip install ansible-lint
 
+RUN pip install ansible
+
 COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
