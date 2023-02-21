@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM python:3.9-slim
 
 LABEL "maintainer"="Ansible by Red Hat <info@ansible.com>"
 LABEL "repository"="https://github.com/Squid-Checker/ansible-lint-action"
